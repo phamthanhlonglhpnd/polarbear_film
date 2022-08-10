@@ -11,11 +11,11 @@ import { getFirestore } from "firebase/firestore";
 //   appId: process.env.REACT_APP_appId,
 // });
 const firebaseConfig = {
-  apiKey: "AIzaSyBiO4NTttc68zMHFkRFXyK5qLsU9zXsJmg",
-  authDomain: "moonlight-40ecf.firebaseapp.com",
-  projectId: "moonlight-40ecf",
+  apiKey: "AIzaSyDRtH1z3AVKT85dljrxUgjRrpDqiF5bM78",
+  authDomain: "polarbear-film.firebaseapp.com",
+  projectId: "polarbear-film",
   storageBucket: "moonlight-40ecf.appspot.com",
-  messagingSenderId: "1043878072437",
+  messagingSenderId: "416300927947",
   appId: "1:1043878072437:web:0fd78f6e64f3cfbe2d283c",
 };
 const app = initializeApp(firebaseConfig);

@@ -106,18 +106,18 @@ const FilmDetail: FC<FilmInfo> = ({ similar, videos, detail, ...others }) => {
         <Title
           value={`${
             (detail as DetailMovie).title || (detail as DetailTV).name
-          } | Moonlight`}
+          } | Polarbear`}
         />
       )}
 
       <div className="flex md:hidden justify-between items-center px-5 my-3">
         <Link to="/" className="flex gap-2 items-center">
           <LazyLoadImage
-            src="/logo.png"
+            src="/icon.jpg"
             className="h-10 w-10 rounded-full object-cover"
           />
           <p className="text-xl text-white font-medium tracking-wider uppercase">
-            Moon<span className="text-primary">light</span>
+            Polar<span className="text-primary">bear</span>
           </p>
         </Link>
         <button onClick={() => setIsSidebarActive((prev) => !prev)}>

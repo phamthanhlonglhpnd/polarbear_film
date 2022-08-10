@@ -39,7 +39,7 @@ const SidebarMini: FunctionComponent = () => {
         <Link to="/">
           <LazyLoadImage
             alt="Logo"
-            src="/logo.png"
+            src="/icon.jpg"
             effect="opacity"
             className="w-10 h-10"
           />

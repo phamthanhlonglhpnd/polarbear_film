@@ -41,7 +41,7 @@ const History: FunctionComponent<HistoryProps> = () => {
 
   return (
     <>
-      <Title value="History | Moonlight" />
+      <Title value="History | Polarbear" />
       <FilmListViewForBookmarkAndHistory
         films={recentlyWatchFilms}
         isLoading={isLoading}

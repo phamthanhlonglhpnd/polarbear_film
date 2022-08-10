@@ -24,17 +24,17 @@ const Search: FunctionComponent<SearchProps> = () => {
   const [currentTab, setCurrentTab] = useState("multi");
   return (
     <>
-      {!query && <Title value="Search | Moonlight" />}
-      {query && <Title value={`Search: ${query} | Moonlight`} />}
+      {!query && <Title value="Search | Polarbear" />}
+      {query && <Title value={`Search: ${query} | Polarbear`} />}
 
       <div className="flex md:hidden justify-between items-center px-5 my-5">
         <Link to="/" className="flex gap-2 items-center">
           <LazyLoadImage
-            src="/logo.png"
+            src="/icon.jpg"
             className="h-10 w-10 rounded-full object-cover"
           />
           <p className="text-xl text-white font-medium tracking-wider uppercase">
-            Moon<span className="text-primary">light</span>
+            Polar<span className="text-primary">bear</span>
           </p>
         </Link>
         <button onClick={() => setIsSidebarActive((prev) => !prev)}>
